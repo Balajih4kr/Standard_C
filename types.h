@@ -14,6 +14,10 @@ typedef long long_t;                   // Long integer
 typedef unsigned long ulong_t;         // Unsigned long integer
 typedef float float_t;                 // Floating-point type (32-bit)
 typedef double double_t;               // Double-precision floating-point (64-bit)
+typedef enum{                          // In C { 0 => true && 1 => false }
+  true,
+  false
+} bool;
 
 
 #endif /* TYPES_H */
